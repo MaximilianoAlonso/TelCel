@@ -1,0 +1,36 @@
+.recargasContainer h2{
+margin: 30px 0 10px 0;
+letter-spacing: 2px;
+}
+.recargasContainer{
+    background-color: rgba(255, 255, 255, 0.493) ;
+    padding: 20px 0;
+    margin: 20px ;
+}
+
+.recargasContainer img{
+    width: 50%;
+    border-radius: 20px;
+    border: 2px solid green;
+    margin: 10px 0;
+ }
+ @media (min-width: 1024px) {
+      
+    .recargasContainer h2{
+        margin: 30px 0 10px 0;
+        letter-spacing: 2px;
+        }
+        .recargasContainer{
+            background-color: rgba(255, 255, 255, 0.493) ;
+            padding: 30px;
+            margin: 20px ;
+            
+        }
+        
+        .recargasContainer img{
+            width: 25%;
+            border-radius: 20px;
+            border: 2px solid green;
+            margin: 10px 0;
+         }
+}

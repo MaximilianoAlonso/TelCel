@@ -1,0 +1,24 @@
+<script src="/javascripts/menu.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+     var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 'auto',
+        spaceBetween: 20,
+        loop: true, // Permite el desplazamiento en bucle
+    autoplay: {
+      delay: 3000, // Tiempo en milisegundos entre cada slide
+      disableOnInteraction: false, // No detener el autoplay al interactuar con el carrusel
+    },
+        breakpoints: {
+            800: {
+                slidesPerView: 4,
+                spaceBetween: 30
+            }
+        }
+    });
+
+
+</script>

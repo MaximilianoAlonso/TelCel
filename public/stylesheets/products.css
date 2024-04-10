@@ -1,0 +1,19 @@
+.cardContainer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+text-align: center;
+width: 80%;
+margin: 0 auto;
+background-color: aliceblue;
+height: 200px;
+}
+
+.carContainer h3{
+margin: 10px 0 !important;
+}
+.carContainer p{
+    padding: 10px !important;
+    line-height: 28px !important;
+}

@@ -1,0 +1,104 @@
+form{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form input {
+    padding: 15px;
+    margin: 0 0 15px 0;
+    border:none
+}
+form button{
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    font-size: 18px;form{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form input {
+    padding: 15px;
+    margin: 0 0 15px 0;
+    border:none
+}
+form button{
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+form span{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+form a{
+padding: 10px 0;    
+    display:  block;
+    text-align: center;
+
+}
+}
+form span{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+form a{
+padding: 10px 0;    
+    display:  block;
+    text-align: center;
+
+}
+
+@media (min-width: 1024px) { 
+    form{
+        padding: 0 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    form input {
+        padding: 15px;
+        margin: 0 0 15px 0;
+        border:none
+    }
+    form button{
+        text-align: center;
+        width: 80%;
+        padding: 15px;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    form span{
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    form a{
+    padding: 10px 0;    
+        display:  block;
+        text-align: center;
+    
+    }
+}
