@@ -49,8 +49,7 @@ header ul {
   position: absolute;
   top: 0;
   left:-500px;
-  background-image: linear-gradient(to bottom, #00b125, #03c22c, #8cff95);
-  width: 100%;
+  background-image: linear-gradient(to bottom, #002D88,#0e44b1,#3e78ec);
   height: 100vh;
   padding: 20px;
   transition: all 0.5s;
@@ -62,7 +61,7 @@ header ul li {
   width: 90%;
 }
 header ul li a {
-  color: white;
+  color: #002D88 !important;
   margin-left: 15px;
   font-size: 20px;
   letter-spacing: 2px;
